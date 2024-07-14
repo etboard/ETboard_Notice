@@ -10,3 +10,7 @@
  . DHT_sensor_library-1.4.4
  . ArduinoJson-6.19.4
  . Adafruit_Unified_Sensor-1.1.6
+
+## WiFi and Analog
+-. WiFi 미사용시: 전 port analog 사용 가능
+-. WiFi 사용시: ADC1(32~39) 채널만 사용가능, A0 ~ A5
